@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<locale name="it_IT" full_name="Italiano">
+	
+	<!-- Theme description -->
+	<message key="plugins.themes.NUimmersion.name">Tema UNIMI2019</message>
+	<message key="plugins.themes.NUimmersion.description"> da usare con OJS 3.1.2+.</message>
+
+	<!-- Forms -->
+	<message key="plugins.themes.NUimmersion.colorPick">Scegli colore</message>
+	<message key="plugins.themes.NUimmersion.colorPickInstructions">Scegli un colore per una sezione da mostrare nel front-end della rivista. Deve essere in codice hex HTML valido (ad es. #ffff00 per il giallo).</message>
+	<message key="plugins.themes.NUimmersion.section.coverPage">Immagine di copertina per la sezione</message>
+	<message key="plugins.themes.NUimmersion.annoucements.colorPick">Colori per la sezione Annunci sull'home page della rivista</message>
+	<message key="editor.issues.sectionArea">Opzioni per le sezioni dei fascicoli</message>
+
+	<!-- General front-end -->
+	<message key="plugins.themes.NUimmersion.issue.published">[DT]Published</message>
+	<message key="plugins.themes.NUimmersion.issue.description">[DT]Issue description</message>
+	<message key="plugins.themes.NUimmersion.registration.consent">[DT]Consent</message>
+	<message key="plugins.themes.NUimmersion.mainMenu">[DT]Main menu</message>
+	<message key="plugins.themes.NUimmersion.language.toggle">[DT]Change the language. The current language is:</message>
+	<message key="plugins.themes.NUimmersion.adminMenu">[DT]Admin menu</message>
+	<message key="plugins.themes.NUimmersion.about.journal">[DT]About the journal</message>
+
+	<!-- Issue -->
+	<message key="plugins.themes.NUimmersion.issue.fullIssueLink">[DT]See the full issue</message>
+	<message key="plugins.themes.NUimmersion.search.parameters">[DT]Parameters</message>
+
+	<!-- Article -->
+	<message key="plugins.themes.NUimmersion.article.biography">[DT]Bio</message>
+	<message key="plugins.themes.NUimmersion.article.figure">[DT]Cover image</message>
+
+	<!-- Authors' search -->
+	<message key="plugins.themes.NUimmersion.authors.browse">[DT]Browse by Author</message>
+	<message key="plugins.themes.NUimmersion.author.details">[DT]Author Details</message>
+
+	<!-- Theme options -->
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.label">[DT]Show section description</message>
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.description">[DT]If activated, the section description will be shown under the appropriate section on the journal homepage</message>
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.disable">[DT]Disable</message>
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.enable">[DT]Enable; requires Browse By Section plugin to be activated</message>
+
+	<message key="plugins.themes.NUimmersion.options.journalDescription.label">[DT]Show journal description</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescription.description">[DT]If enabled, the journal description will be shown on the journal's landing page</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescription.disable">[DT]Disable (default)</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescription.enable">[DT]Enable</message>
+
+	<message key="plugins.themes.NUimmersion.options.journalDescriptionColour.label">[DT]Journal description background</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescriptionColour.description">[DT]Background colour for the journal description section on the journal home page</message>
+
+</locale>

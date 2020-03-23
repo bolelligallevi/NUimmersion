@@ -1,0 +1,93 @@
+/* @override 
+	https://ojs-unimi-test.4science.cloud/templates/css/mystyle.css
+	http://unimi2:8888/plugins/themes/NUimmersion/resources/dist/mystyle.css */
+
+div.journalHpContainer {
+	border: 1px solid silver;
+	border-bottom-width: 3px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+	min-height: 130px;
+}
+div.homepageImage {
+	float: left;
+	margin: 5px;
+	max-width: 100px;
+}
+div.homepageImage img {
+	max-width: 100px;
+	max-height: 100px;
+}
+div#bloc-1 h1.mg-md.tc-white {
+	text-shadow: 1px 1px 1px #333333;
+}
+.journalDescription p {display: none;}
+
+.journalDescription p:first-child {
+overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+ }
+ .journalHpContainer {
+    height: 225px ;
+ }
+  .journalHpContainer h3 {
+     overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+     border-bottom: 1px dotted silver;
+	 margin-top:  10px;
+  }
+   .journalHpContainer a.action {
+      background: #eaeaea;
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 10px
+   }
+
+  .journalHpContainer a.action:hover {
+      background: #003366;
+      color: whitesmoke !important;
+  }
+   .homepageImage a.action  {
+   	 background: none;
+   	 padding:  0 20px 0 0;
+ 
+   }
+     .homepageImage a.action:hover  {
+     	 background: none;
+     	 padding:  0 20px 0 0;
+   
+     }
+     
+    .main-header__admin-link,.main-header__lang-link{ 
+		padding:.25em .5em;
+		margin-left:0.5em;
+		background-color:transparent !important;
+		color:#fff !important;
+		cursor:pointer
+	}
+	ul#navigationUser, ul#languageNav {
+		margin-top: 20px;
+	}
+	ul#navigationUser.pkp_navigation_user.pkp_nav_list li.profile.nmi_type_user_register.nav-item {
+		display: inline;
+	}
+	ul#navigationUser.pkp_navigation_user.pkp_nav_list li.profile.nmi_type_user_login.nav-item {
+		display: inline;
+	}
+	
+h2.title, h2.main_title {
+	font-family: Helvetica;
+}
+div#bloc-4 a:hover{
+	color: white !important;
+	text-decoration: 1px solid white !important;
+}
+div.about_site {
+	margin-top: 0;
+}

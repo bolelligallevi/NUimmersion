@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<locale name="en_US" full_name="U.S. English">
+
+	<!-- Theme description -->
+	<message key="plugins.themes.NUimmersion.name">UNIMI Theme</message>
+	<message key="plugins.themes.NUimmersion.description">Working for OJS 3.1.1+.</message>
+
+	<!-- Forms -->
+	<message key="plugins.themes.NUimmersion.colorPick">Color Picker</message>
+	<message key="plugins.themes.NUimmersion.colorPickInstructions">Pick a color for a section to display on the journal's front-end. Must be valid HTML hex code (e.g., #ffff00 for yellow).</message>
+	<message key="plugins.themes.NUimmersion.section.coverPage">Section Cover Image</message>
+	<message key="plugins.themes.NUimmersion.announcements.colorPick">Announcements section colour on the journal's home page</message>
+	<message key="editor.issues.sectionArea">Options for issue's sections</message>
+
+	<!-- General front-end -->
+	<message key="plugins.themes.NUimmersion.issue.published">Published</message>
+	<message key="plugins.themes.NUimmersion.issue.description">Issue description</message>
+	<message key="plugins.themes.NUimmersion.registration.consent">Consent</message>
+	<message key="plugins.themes.NUimmersion.mainMenu">Main menu</message>
+	<message key="plugins.themes.NUimmersion.language.toggle">Change the language. The current language is:</message>
+	<message key="plugins.themes.NUimmersion.adminMenu">Admin menu</message>
+	<message key="plugins.themes.NUimmersion.about.journal">About the journal</message>
+
+	<!-- Issue -->
+	<message key="plugins.themes.NUimmersion.issue.fullIssueLink">See the full issue</message>
+	<message key="plugins.themes.NUimmersion.search.parameters">Parameters</message>
+
+	<!-- Article -->
+	<message key="plugins.themes.NUimmersion.article.biography">Bio</message>
+	<message key="plugins.themes.NUimmersion.article.figure">Cover image</message>
+
+	<!-- Authors' search -->
+	<message key="plugins.themes.NUimmersion.authors.browse">Browse by Author</message>
+	<message key="plugins.themes.NUimmersion.author.details">Author Details</message>
+
+	<!-- Theme options -->
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.label">Show section description</message>
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.description">If activated, the section description will be shown under the appropriate section on the journal homepage</message>
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.disable">Disable</message>
+	<message key="plugins.themes.NUimmersion.options.sectionDescription.enable">Enable; requires Browse By Section plugin to be activated</message>
+
+	<message key="plugins.themes.NUimmersion.options.journalDescription.label">Show journal description</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescription.description">If enabled, the journal description will be shown on the journal's landing page</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescription.disable">Disable (default)</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescription.enable">Enable</message>
+
+	<message key="plugins.themes.NUimmersion.options.journalDescriptionColour.label">Journal description background</message>
+	<message key="plugins.themes.NUimmersion.options.journalDescriptionColour.description">Background colour for the journal description section on the journal home page</message>
+</locale>

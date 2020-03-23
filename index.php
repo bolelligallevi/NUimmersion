@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file plugins/themes/immersion/index.php
+ *
+ * Copyright (c) 2014-2019 Simon Fraser University
+ * Copyright (c) 2003-2019 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @ingroup plugins_themes_immersion
+ * @brief Wrapper for Immersion theme plugin.
+ *
+ */
+
+require_once('NUimmersionThemePlugin.inc.php');
+
+return new NUimmersionThemePlugin();
