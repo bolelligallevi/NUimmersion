@@ -10,6 +10,9 @@
  *}
 {include file="frontend/components/header.tpl" immersionIndexType="indexSite"}
 
+// added for A-Z: start
+{foreach from=$alphaList item=letter}<a href="#{$letter"}">{$letter|escape} {/foreach}
+// added for A-Z: end
 
 <!-- bloc-2 -->
 <div class="bloc b-divider bgc-white l-bloc" id="bloc-2">
